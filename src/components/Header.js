@@ -9,7 +9,7 @@ const LandingHeader = ({handleLogout}) => {
       <li class="relative">
         <a class="flex items-center text-sm py-4 px-6 h-12 overflow-hidden text-gray-700 text-ellipsis whitespace-nowrap rounded hover:text-gray-900 hover:bg-gray-200 transition duration-300 ease-in-out" href="#!" data-mdb-ripple="true" data-mdb-ripple-color="dark">
          <Link to="create" className="hover:text-blue-200 transition duration-300">
-            Create New Card
+            Create Card
           </Link> 
         </a>
       </li>
