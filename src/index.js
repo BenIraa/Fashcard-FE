@@ -14,7 +14,7 @@ import { setContext } from '@apollo/client/link/context';
 import AllRoutes from './routes';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3000'
+  uri: 'https://backendflashcard.herokuapp.com/'
 });
 
 const authLink = setContext((_, { headers }) => {
